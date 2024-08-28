@@ -25,7 +25,7 @@ body {
 .logo {
     height: 48px;
     width: 120px;
-    margin: 40px;
+    margin: 20px;
 }
 
 .titulo {
@@ -36,4 +36,71 @@ body {
     padding-left: 20px;
 }
 
-.main-contender {}
+.main-contender {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.input {
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    opacity: 1;
+    resize: none;
+    overflow: hidden;
+}
+
+.container-output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+
+
+/*     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.input-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.input {
+    padding: 20px;
+    background-color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    opacity: 1;
+    resize: none;
+    overflow: hidden;
+}
+
+.container-output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+} */
