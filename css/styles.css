@@ -71,6 +71,10 @@ body {
     width: 60%;
 }
 
+.container-mensaje {
+    background-color: blueviolet;
+}
+
 
 
 /*     display: flex;
