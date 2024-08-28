@@ -4,37 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Encriptador</title>
 </head>
 
 <body>
     <main>
-        <h1>Encriptador</h1>
-        <img src="/assets/img/Logo.png" alt="logo-alura">
+        <header class="header">
+            <img class="logo" src="/assets/img/Logo.png" alt="logo-alura">
+            <h1 class="titulo">Encriptador</h1>
+        </header>
 
-        <article class="input-container">
-            <input type="text" class="input" value="Ingrese el texto aqui">
-            <p>Solo letras minúsculas y sin acentos</p>
-            <div class="botonera">
-                <button class="boton-encriptar">Encriptar</button>
-                <button class="boton-desencriptar">Desencriptar</button>
-            </div>
+        <div class="main-contender">
+            <article class="input-container">
+                <input type="text" class="input" value="Ingrese el texto aqui">
+                <p>Solo letras minúsculas y sin acentos</p>
+                <div class="botonera">
+                    <button class="boton-encriptar">Encriptar</button>
+                    <button class="boton-desencriptar">Desencriptar</button>
+                </div>
 
-        </article>
+            </article>
 
-        <article>
-            <div class="container-output">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quas.</p>
-            </div>
-            <div class="container-mensaje-vacio">
-                <img src="/assets/img/Muñeco.png" alt="persona-con-lupa">
-                <p class="mensaje-vacio">Ningún mensaje fue encontrado</p>
-                <p class="mensaje-ingresar">Ingresa el texto que desees encriptar o desencriptar.</p>
-            </div>
+            <article>
+                <div class="container-output">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quas.</p>
+                </div>
+                <div class="container-mensaje-vacio">
+                    <img src="/assets/img/Muñeco.png" alt="persona-con-lupa">
+                    <p class="mensaje-vacio">Ningún mensaje fue encontrado</p>
+                    <p class="mensaje-ingresar">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
 
-        </article>
+            </article>
+        </div>
+
 
     </main>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

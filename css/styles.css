@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E5E5E5;
+    height: auto;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: auto;
+    width: auto;
+
+}
+
+.logo {
+    height: 48px;
+    width: 120px;
+    margin: 40px;
+}
+
+.titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding-left: 20px;
+}
+
+.main-contender {}
